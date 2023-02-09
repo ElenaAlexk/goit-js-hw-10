@@ -11,10 +11,29 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+ul {
+  list-style: none;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+p {
+  margin-left: 10px;
+  font-size: larger;
+  font-weight: 600;
+}
 #search-box {
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+.country-list,
+.country-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
 }
